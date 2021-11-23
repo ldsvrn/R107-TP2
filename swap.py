@@ -11,16 +11,12 @@ print("Permutation: a ==> b, b ==> c, c ==> a")
          *******************************************
 """
 
-swap = {
-    "a": a,
-    "b": b,
-    "c": c
-}
-
-a = swap["b"]
-b = swap["c"]
-c = swap["b"]
-del swap
+swap = a
+swap2 = b
+a = c
+c = b
+b = swap
+c = swap2
 
 """     *******************************************
          * Ne rien modifier apres cette ligne.
