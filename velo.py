@@ -22,7 +22,7 @@ for i in range(start, end): location.append(i)
 
 heuresPleine, heuresCreuses = 0, 0
 for i in location:
-    if i in range(7, 18):
+    if i in range(7, 17):
         heuresPleine += 1
     else:
         heuresCreuses += 1
